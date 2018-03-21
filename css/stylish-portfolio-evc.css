@@ -1,0 +1,88 @@
+/* Side Menu */
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  transform: translateX(250px);
+  background: #ed145b;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #e5e2d3;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+  z-index: 999;
+}
+
+.menu-toggle:focus, .menu-toggle:hover {
+  color: #e5e2d3;
+}
+.menu-toggle:hover {
+  background: #89303f;
+}
+.sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #e5e2d3;
+  padding: 15px;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #e5e2d3;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.service-icon {
+  background-color: #e5e2d3;
+  color: #ed145b;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #ed145b !important;
+  border-color: #ed145b !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #89303f !important;
+  border-color: #89303f !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 200;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+}
+
+.bg-primary {
+  background-color: #60aaa7 !important;
+}
+
+.text-primary {
+  color: #60aaa7 !important;
+}
