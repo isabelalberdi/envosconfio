@@ -86,3 +86,15 @@ body {
 .text-primary {
   color: #60aaa7 !important;
 }
+
+.list-group-evc {
+  color: #e5e2d3 !important;
+}
+.list-group-item-evc {
+  background-color: #60aaa7;
+  border-color: #60aaa7;  
+}
+.list-group-item-evc2 {
+  background-color: #4d9996;
+  border-color: #60aaa7; 
+}
